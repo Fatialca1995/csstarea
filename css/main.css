@@ -230,9 +230,6 @@ body {
   padding: 20px;
   margin-top: 50px;
 }
-.pancake_menu_list{
-  flex-direction: column;
-}
 
 /* メニューアイテムコンポーネント */
 .menu_list {
@@ -240,8 +237,6 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
-
 
 .menu_list_recommended {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
@@ -255,11 +250,6 @@ body {
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
 }
-
-.pancake_menu_item{
-  width: 100%;
-}
-
 .menu_item_content {
   width: 45%;
   padding: 10px;
